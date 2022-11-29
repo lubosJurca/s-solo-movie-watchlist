@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1C1C1C;
+}
+
+
+
+/* ----------- Container------- */
+
+#container {
+    width: 34.375rem;
+    height: 48.75rem;
+
+    background: black;
+
+}
+
+/* -----Header section-------- */
+
+#header {
+    width: 100%;
+    height: 13rem;
+    background-image: url(./film-image.png);
+    font-family: 'Inter', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    margin-left: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42.7947px;
+    line-height: 24px;
+
+}
+
+#nav-link {
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* ------Main section */
+
+#form {
+
+    display: flex;
+    justify-content: center;
+    margin-top: -1.187rem;
+
+
+}
+
+#movie-input {
+    width: 21.375rem;
+    height: 2.375rem;
+    padding: 9px 13px;
+    color: #A5A5A5;
+    background: #3b3b3b;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+#submit-button {
+    border: none;
+    background: #4B4B4B;
+    border-radius: 0px 6px 6px 0px;
+    width: 7.5rem;
+    color: #c0baba;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+}
+
+
+/* --------ITEM section */
+
+/* general */
+
+.item {
+    margin-bottom: 5rem;
+}
+
+.wrapper {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin: 2rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1.5px solid #2C2C2C;
+    outline: 2px salmon;
+
+
+}
+
+.poster {
+    float: left;
+    margin-right: 1rem;
+    height: 9.213rem;
+
+}
+
+.outer {
+    margin-top: 2rem;
+}
+
+.title-stars {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.length-genre {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.watchlist {
+    display: flex;
+    gap: 0.2rem;
+}
+
+/* detail*/
+
+.title {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.fa-star {
+    color: #FEC654;
+    font-size: 10px;
+    margin-top: 0.3rem;
+}
+
+.rating,
+.movie-length,
+.genre,
+.add-to-watchlist {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.a-watchlist {
+    color: white;
+    font-size: 12px;
+    margin-top: 0.15rem;
+
+
+}
+
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A5A5A5;
+}
